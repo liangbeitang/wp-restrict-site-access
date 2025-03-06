@@ -1,0 +1,56 @@
+/* 整体包裹容器样式 */
+.wrap {
+    margin: 20px;
+}
+
+/* 标题样式 */
+.wrap h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 表单表格样式 */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 表格行样式 */
+.form-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+/* 表格表头样式 */
+.form-table th {
+    width: 20%;
+    padding: 15px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* 表格单元格样式 */
+.form-table td {
+    padding: 15px 10px;
+}
+
+/* 复选框样式 */
+.form-table input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* 提交按钮样式 */
+.submit input[type="submit"] {
+    margin-top: 20px;
+    background-color: #0073aa;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* 提交按钮悬停样式 */
+.submit input[type="submit"]:hover {
+    background-color: #006799;
+}
