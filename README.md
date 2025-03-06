@@ -1,0 +1,1 @@
+# wp-restrict-site-access
